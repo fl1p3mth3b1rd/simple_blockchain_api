@@ -50,3 +50,4 @@ web3==5.28.0
 websockets==9.1
 yarl==1.7.2
 pony==0.7.16
+psycopg2-binary==2.9.3
