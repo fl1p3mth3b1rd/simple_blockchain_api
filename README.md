@@ -1,7 +1,9 @@
 # simple_blockchain_api
 
-Реализован API для взаимодействия с контрактом стандарта ERC-721 (NFT) в блокчейне Ethereum.
+Реализован API для взаимодействия с контрактом стандарта ERC-721 (NFT) в блокчейне Ethereum. 
+
 (адрес контракта: https://rinkeby.etherscan.io/address/0x92e098def0ca9577bd50ca61b90b9a46ec1f2040)
+
 Используемые технологии: FastAPI (pydantic, swagger), PonyORM, Postgresql, Web3, Docker, Docker-Compose.
 
 эндпоинты:
