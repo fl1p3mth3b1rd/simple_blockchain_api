@@ -13,6 +13,11 @@ def get_config() -> dict:
             "host": getenv("db_host"),
             "database": getenv("db_name"),
             "port": getenv("db_port")
+        },
+        "etherium": {
+            "provider_url": getenv("provider_url"),
+            "contract_address": getenv("contract_address"),
+            "private_key": getenv("private_key")
         }
     }
     return config
