@@ -1,0 +1,16 @@
+version: "1.0"
+services:
+  db:
+    image: postgres:10
+    restart: always
+    environment:
+      POSTGRES_USER: ${db_user}
+      POSTGRES_PASSWORD: ${db_password}
+      POSTGRES_DB: ${db_name}
+
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
