@@ -27,3 +27,4 @@
 * Заменить значения параметров provider_url и private_key в .env файле на свои.
 * Собрать Docker-compose контейнеры (команда: docker-compose build).
 * Запустить контейнеры (команда: docker-compose up).
+* В браузере перейти по адресу localhost:8000/docs (страница Swagger API)
